@@ -1,0 +1,46 @@
+C
+.div2{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.div2>div{
+  border-top: 1px solid rgba(0, 0, 0 ,0.1);
+  border-right: 1px solid rgba(0, 0, 0 ,0.1);
+
+  border-collapse: collapse;
+}
+.gird-content{
+  padding-left: 20px;
+}
+
+
+
+.images{
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+}
+.ratings{
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+}
+.container{
+  display: flex;
+  align-items: center;
+
+}
+.add-to-cart-button{
+  width: 170px;
+height: 30px;
+border-radius: 20px;
+background-color: #FF7F50;
+margin-bottom: 20px;
+
+}
+select{
+  width: 45px;
+  height: 25px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,78 @@
+body, html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.div1{
+  width: auto;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  padding-left: 20px;
+  
+
+}
+.yared{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 150%;
+  font-style: italic;
+  padding-left: 20px;
+  margin-right: 50px;
+  align-self: center;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 3px dotted white;
+  font-weight: bold;
+ text-decoration: underline;
+ text-decoration-style: dotted;
+ text-decoration-color: #FF7F50;
+ padding-right: 20px;
+}
+.search-button{
+  height: 42px;
+  align-self: center;
+  border: none;
+  background-color: #FF7F50;
+  border-color: yellow;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.search-input{
+  padding-left: 20px;
+  font-size:15px;
+}
+.return-orders{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  align-self: center;
+  background-color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-right: 40px;
+  font-weight: bold;
+  padding: 7px;
+  text-decoration: none;
+}
+.return-orders:hover{
+  border-color: white;
+ }
+ .cart:hover{
+  border-color: white;
+ }
+.cart{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  align-self: center;
+  background-color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 7px;
+}
