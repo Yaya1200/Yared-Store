@@ -38,7 +38,7 @@ input{
  text-decoration: underline;
  text-decoration-style: dotted;
  text-decoration-color: #FF7F50;
- padding-right: 15px;
+ padding-right: 20px;
 }
 .yared:hover{
   border: 3px dotted orange;
@@ -89,7 +89,6 @@ input{
   padding: 7px;
   text-decoration: none;
 }
-
 input{
   width: 60%;
   height: 40px;
@@ -98,48 +97,88 @@ input{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.div2{
+.review-text{
+  padding-left: 60px;
+  padding-top: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;;
+  font-weight: bold;
+}
+.delivery-itmes{
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border: 1px solid rgba(0,0, 0, 0.1);
+  padding: 20px;
+  position: relative;
 }
-.div2>div{
-  border-top: 1px solid rgba(0, 0, 0 ,0.1);
-  border-right: 1px solid rgba(0, 0, 0 ,0.1);
-
-  border-collapse: collapse;
+img{
+  width: 100px;
+  height: 100px;
 }
-.gird-content{
-  padding-left: 20px;
-}
-
-
-
-.images{
-  width: 200px;
-  height: 200px;
-  margin-top: 25px;
-}
-.ratings{
-  width: 80px;
-  height: 30px;
-  margin-right: 10px;
-}
-.container{
+.delivery-all-items{
+  padding-left: 60px;
   display: flex;
-  align-items: center;
+  gap:20px;
 
 }
-.add-to-cart-button{
-  width: 170px;
-height: 30px;
-border-radius: 20px;
-background-color: #FF7F50;
-margin-bottom: 20px;
+.delivery-text{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position:absolute;
+  top:0;
+  left:10px;
+  margin-bottom: 10px;
+}
+.input_option1{
+  height: 20px;
+  width: 20px;
+}
+.delivery-itmes>div{
+  margin-top: 20px;
+  border-bottom:1px solid rgba(0,0,0,0.1);
+   border-left:1px solid rgba(0,0,0,0.1);
+}
+.order{
+  border:1px solid rgba(0,0, 0, 0.1);
+  padding: 10px;
+}
+.order>div{
+  padding-bottom: 10px;
+}
+.order>div:nth-child(5){
+  border-bottom: 1px solid rgba(0,0, 0, 0.1);
+}
+.price{
+  padding-left: 200px;
+}
+.order div {
+  display: flex;              
+  justify-content: space-between; 
+  padding: 10px 0;                
+}
+.grid-page{
+  display: grid;
 
 }
-select{
-  width: 45px;
-  height: 25px;
-  border-radius: 6px;
-  margin-bottom: 30px;
+.delete-button{
+  background-color: #d8d3d2;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.placeorder{
+  background-color: #FF7F50;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
