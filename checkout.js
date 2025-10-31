@@ -121,6 +121,7 @@ function renderCart() {
 
 document.querySelector('.placeorder').addEventListener('click', () => {
   addedOrders();
+  alert("your orders are placed");
 });
 
 }
