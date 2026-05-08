@@ -41,6 +41,7 @@ function renderCart() {
     sum_of_prices += item.priceCents * item.quantity;
     sum_of_shipping += 4.99;
   });
+  
 
   document.querySelector('.delivery-itmes').innerHTML = added_orders;
 
